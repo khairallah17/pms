@@ -36,4 +36,4 @@ Développer une application web JEE utilisant Spring MVC, Thymeleaf et Spring Da
 
 ## Fonctionnalités
   - login:
-    - [login.png](captures/login.png)
+    - [login.png](../../captures/login.png)
