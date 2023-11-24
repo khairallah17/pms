@@ -35,5 +35,28 @@ Développer une application web JEE utilisant Spring MVC, Thymeleaf et Spring Da
   - UserDetailsService
 
 ## Fonctionnalités
-  - login:
-    - [login.png](../../captures/login.png)
+  - login
+  - ![login.png](../../captures/login.png)
+  - liste des patient et pagination
+  ![patients_list.png](../../captures/patients_list.png)
+  - supprimer un patient
+  ![patient_delete](../../captures/patients_delete.png)
+  - modifier les information d'un patient
+  ![patient_update](../../captures/edit_patient.png)
+  - ajouter un patient
+  ![patient_add](../../captures/patient_add.png)
+  - Rechercher un patient
+  ![serach_patient](../../captures/search_patient.png)
+
+## Fonctionnalités en code
+### Fonctionnalités ADMIN
+ces fonctionnalités est juste pour admin ce qui fait on a ajouter l'annotaion **@PreAuthotize('ROLE_ADMIN')** pour donner access just au l'admin
+  - ajouter un patient:
+  ![add_code](../../captures/add_code.png)
+  - supprimer un patient:
+  ![delete_code](../../captures/delete_code.png)
+  - editer un patient
+  ![edit_code](../../captures/edit_code.png)
+
+## SPRING SECURITY
+cette parite qui a but de creer un couche de protection qui sert a gerer l'authentification 
