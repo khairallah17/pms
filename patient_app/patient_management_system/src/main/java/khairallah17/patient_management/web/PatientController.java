@@ -1,9 +1,9 @@
-package ma.mundiapolis.hopital_web.web;
+package khairallah17.patient_management.web;
 
 import jakarta.validation.Valid;
+import khairallah17.patient_management.entities.Patient;
+import khairallah17.patient_management.repositories.PatientRepository;
 import lombok.AllArgsConstructor;
-import ma.mundiapolis.hopital_web.entities.Patient;
-import ma.mundiapolis.hopital_web.repositories.PatientRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.security.access.prepost.PreAuthorize;

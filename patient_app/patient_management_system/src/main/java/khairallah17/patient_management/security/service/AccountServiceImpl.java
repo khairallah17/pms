@@ -1,10 +1,10 @@
-package ma.mundiapolis.hopital_web.security.service;
+package khairallah17.patient_management.security.service;
 
+import khairallah17.patient_management.security.entities.AppRole;
+import khairallah17.patient_management.security.entities.AppUser;
 import lombok.AllArgsConstructor;
-import ma.mundiapolis.hopital_web.security.entities.AppRole;
-import ma.mundiapolis.hopital_web.security.entities.AppUser;
-import ma.mundiapolis.hopital_web.security.repo.AppRoleRepository;
-import ma.mundiapolis.hopital_web.security.repo.AppUserRepository;
+import khairallah17.patient_management.security.repo.AppRoleRepository;
+import khairallah17.patient_management.security.repo.AppUserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

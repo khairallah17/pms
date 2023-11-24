@@ -1,4 +1,4 @@
-package ma.mundiapolis.hopital_web.web;
+package khairallah17.patient_management.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

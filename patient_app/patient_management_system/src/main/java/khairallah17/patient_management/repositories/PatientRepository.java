@@ -1,6 +1,6 @@
-package ma.mundiapolis.hopital_web.repositories;
+package khairallah17.patient_management.repositories;
 
-import ma.mundiapolis.hopital_web.entities.Patient;
+import khairallah17.patient_management.entities.Patient;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

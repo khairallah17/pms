@@ -1,6 +1,6 @@
-package ma.mundiapolis.hopital_web.security.repo;
+package khairallah17.patient_management.security.repo;
 
-import ma.mundiapolis.hopital_web.security.entities.AppRole;
+import khairallah17.patient_management.security.entities.AppRole;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AppRoleRepository extends JpaRepository<AppRole, String> {

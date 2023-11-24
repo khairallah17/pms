@@ -1,4 +1,4 @@
-package ma.mundiapolis.hopital_web.security.entities;
+package khairallah17.patient_management.security.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

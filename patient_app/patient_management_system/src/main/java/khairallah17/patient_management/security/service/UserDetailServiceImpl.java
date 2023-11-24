@@ -1,14 +1,12 @@
-package ma.mundiapolis.hopital_web.security.service;
+package khairallah17.patient_management.security.service;
 
+import khairallah17.patient_management.security.entities.AppUser;
 import lombok.AllArgsConstructor;
-import ma.mundiapolis.hopital_web.security.entities.AppUser;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
-import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor

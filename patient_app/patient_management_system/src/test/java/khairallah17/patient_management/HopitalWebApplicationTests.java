@@ -1,4 +1,4 @@
-package ma.mundiapolis.hopital_web;
+package khairallah17.patient_management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

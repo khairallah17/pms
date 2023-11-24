@@ -1,7 +1,7 @@
-package ma.mundiapolis.hopital_web.security.service;
+package khairallah17.patient_management.security.service;
 
-import ma.mundiapolis.hopital_web.security.entities.AppRole;
-import ma.mundiapolis.hopital_web.security.entities.AppUser;
+import khairallah17.patient_management.security.entities.AppUser;
+import khairallah17.patient_management.security.entities.AppRole;
 
 public interface AccountService {
     AppUser addnewUser(String username, String password, String email, String confirmPassword);

@@ -1,17 +1,14 @@
-package ma.mundiapolis.hopital_web;
+package khairallah17.patient_management;
 
-import ma.mundiapolis.hopital_web.entities.Patient;
-import ma.mundiapolis.hopital_web.repositories.PatientRepository;
-import ma.mundiapolis.hopital_web.security.service.AccountService;
+import khairallah17.patient_management.entities.Patient;
+import khairallah17.patient_management.repositories.PatientRepository;
+import khairallah17.patient_management.security.service.AccountService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.provisioning.JdbcUserDetailsManager;
 
 import java.util.Date;
 
@@ -22,10 +19,23 @@ public class HopitalWebApplication {
         SpringApplication.run(HopitalWebApplication.class, args);
     }
 
-//    @Bean
+    @Bean
     CommandLineRunner commandLineRunner(PatientRepository patientRepository){
         return args -> {
-            patientRepository.save(new Patient(null,"Mohammed", new Date(), true,321));
+            patientRepository.save(new Patient(null,"Mohammed", new Date(), true,200));
+            patientRepository.save(new Patient(null,"test1", new Date(), true,321));
+            patientRepository.save(new Patient(null,"rewr111", new Date(), true,31));
+            patientRepository.save(new Patient(null,"76lkjl11", new Date(), true,32));
+            patientRepository.save(new Patient(null,"ssss11", new Date(), true,301));
+            patientRepository.save(new Patient(null,"ss12111", new Date(), true,321));
+            patientRepository.save(new Patient(null,"gfhfghfgh", new Date(), true,320));
+            patientRepository.save(new Patient(null,"twert345", new Date(), true,321));
+            patientRepository.save(new Patient(null,"wer121", new Date(), true,321));
+            patientRepository.save(new Patient(null,"hgh12121", new Date(), true,321));
+            patientRepository.save(new Patient(null,"saad11", new Date(), true,321));
+            patientRepository.save(new Patient(null,"nnn111", new Date(), true,321));
+            patientRepository.save(new Patient(null,"mmmmmm", new Date(), true,321));
+
 
             patientRepository.findAll().forEach(p->{
                 System.out.println(p.getNom());

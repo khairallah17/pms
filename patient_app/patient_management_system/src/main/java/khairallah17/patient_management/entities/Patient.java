@@ -1,4 +1,4 @@
-package ma.mundiapolis.hopital_web.entities;
+package khairallah17.patient_management.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
